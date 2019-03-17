@@ -18,6 +18,25 @@ This is a useful activity to do particularly when operating at a scale where the
 
 `grenade` is a simple command line utility, see `grenade --help`
 
+```
+usage: grenade [<flags>]
+
+Flags:
+  --help                   Show context-sensitive help (also try --help-long and --help-man).
+  --delay=DELAY            trigger the grenade after specified delay e.g 5m30s
+  --crash                  Process crash
+  --exit                   Exit process with non-zero exit code
+  --mem-spike              Cause a memory spike
+  --mem-leak               Cause a memory leak
+  --cpu-spike              Cause a CPU spike
+  --goroutine-leak         Cause goroutines to be leaked
+  --conn-spike=CONN-SPIKE  Cause a connect spike to an address
+  --conn-leak=CONN-LEAK    Cause a connect leak to an address
+  --dns-spike              Cause a spike in DNS lookups
+  --log-spike              Cause a spike in log volume
+  --fd-spike               Cause a spike in open file descriptors
+```
+
 ## Supported failure modes
 
 TODO
