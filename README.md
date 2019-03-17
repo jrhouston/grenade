@@ -1,4 +1,6 @@
-# Grenade
+# Grenade 💣 🔥
+
+![](https://media.giphy.com/media/9PkfGzhKwBDHPTnDSj/giphy.gif)
 
 Grenade a tool for creating deployment failures. I created this tool at [Wattpad](http://wattpad.com) to answer questions like _What happens when a developer deploys a service that chews up a ton of memory?_ and _How quickly do I get an alert when log volume in production spikes dramatically?_.
 
