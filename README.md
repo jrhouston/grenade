@@ -37,6 +37,8 @@ Flags:
   --dns-spike              Cause a spike in DNS lookups
   --log-spike              Cause a spike in log volume
   --fd-spike               Cause a spike in open file descriptors
+  --disk-spike             Cause a spike in disk space usage
+  --disk-leak              Cause a leak in disk space usage
 ```
 
 ## Supported failure modes
