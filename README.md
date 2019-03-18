@@ -2,7 +2,7 @@
 
 ![](https://media.giphy.com/media/9PkfGzhKwBDHPTnDSj/giphy.gif)
 
-`grenade` is a tool for causing system failures. We created this tool at [Wattpad](http://wattpad.com) to answer questions like _What happens when a developer deploys a change that chews up a ton of memory?_ and _How quickly do I get an alert when log volume in production spikes dramatically?_
+`grenade` is a tool for causing system failures. I created this tool for [Wattpad](http://wattpad.com) to answer questions like _What happens when a developer deploys a change that chews up a ton of memory?_ and _How quickly do I get an alert when log volume in production spikes dramatically?_
 
 This is a useful activity to do particularly when operating at a scale where the blast radius of a failure in production can be quite large. For example, if you run a system where you have services with 300 replicas, it's good to know what's going to happen when you toss 300 grenades into production before someone inevitably does it by accident. This can help you:
 
