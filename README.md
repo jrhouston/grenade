@@ -25,6 +25,7 @@ usage: grenade [<flags>]
 
 Flags:
   --help                   Show context-sensitive help (also try --help-long and --help-man).
+  --port=8080              Webserver port
   --delay=DELAY            trigger the grenade after specified delay e.g 5m30s
   --crash                  Process crash
   --exit                   Exit process with non-zero exit code
@@ -39,6 +40,7 @@ Flags:
   --fd-spike               Cause a spike in open file descriptors
   --disk-spike             Cause a spike in disk space usage
   --disk-leak              Cause a leak in disk space usage
+
 ```
 
 ## Supported failure modes

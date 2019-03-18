@@ -5,9 +5,13 @@ import (
 
 	"github.com/jrhouston/grenade/pkg/grenade"
 	"gopkg.in/alecthomas/kingpin.v2"
+
+	"github.com/jrhouston/grenade/internal/pkg/webserver"
 )
 
 var (
+	webserverPort = kingpin.Flag("port", "Webserver port").Default("8080").Int()
+
 	delay = kingpin.Flag("delay", "trigger the grenade after specified delay e.g 5m30s").Duration()
 
 	// NOTE kingpin doesn't yet support mutually exlusive flags
@@ -33,6 +37,8 @@ var (
 
 func main() {
 	kingpin.Parse()
+
+	go webserver.Run(*webserverPort)
 
 	if *delay != 0 {
 		time.Sleep(*delay)
