@@ -1,4 +1,4 @@
-# Grenade 💣 🔥
+# Grenade 💣 🔥 [![Go Report Card](https://goreportcard.com/badge/github.com/jrhouston/grenade)](https://goreportcard.com/report/github.com/jrhouston/grenade)
 
 ![](https://media.giphy.com/media/9PkfGzhKwBDHPTnDSj/giphy.gif)
 
