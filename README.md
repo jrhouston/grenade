@@ -17,7 +17,7 @@ This is a useful activity to do particularly when operating at a scale where the
 - Highlight gaps in monitoring and resource limits.
 - See how resilient your infrastructure really is to unexpected failures.
 
-**DISCLAIMER:** `grenade` does not _simulate_ problems by faking monitoring data. It actually causes problems. Only deploy this to testing and pre-production environments, or if you want to upset your on-call engineer.
+⚠️ **DISCLAIMER:** `grenade` does not _simulate_ problems by faking monitoring data. It actually causes problems. Only deploy this to testing and pre-production environments, or if you want to upset your on-call engineer.
 
 ## Build
 
