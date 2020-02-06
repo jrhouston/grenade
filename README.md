@@ -2,7 +2,7 @@
 
 ![](https://media.giphy.com/media/9PkfGzhKwBDHPTnDSj/giphy.gif)
 
-`grenade` is a tool for causing system failures. I created this tool at [Wattpad](http://wattpad.com) to answer questions like:
+`grenade` is a tool for _causing_ fires in production. I created this tool at [Wattpad](http://wattpad.com) to answer questions like:
 
 - What happens when a developer deploys a change that chews up a ton of memory?
 - How quickly do I get an alert when log volume in production spikes dramatically?
