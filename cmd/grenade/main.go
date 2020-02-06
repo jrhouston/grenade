@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"time"
 
 	"github.com/jrhouston/grenade/pkg/grenade"
@@ -39,6 +40,8 @@ func main() {
 	kingpin.Parse()
 
 	go webserver.Run(*webserverPort)
+
+	fmt.Println("💣 ... 🔥")
 
 	if *delay != 0 {
 		time.Sleep(*delay)
