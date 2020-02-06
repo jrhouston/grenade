@@ -6,7 +6,7 @@
 
 - What happens when a developer deploys a change that chews up a ton of memory?
 - How quickly do I get an alert when log volume in production spikes dramatically?
-- Can a misbehaving service interfere with it's neighbors in my production environment?
+- Can a misbehaving service interfere with its neighbors in my production environment?
 
 This is a useful activity to do particularly when operating at a scale where the blast radius of a failure in production can be quite large. For example, if you run a system where you have services with 300 replicas, it's good to know what's going to happen when you toss 300 grenades into production before someone inevitably does it by accident. This can help you:
 
