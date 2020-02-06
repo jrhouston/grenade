@@ -22,7 +22,7 @@ func ConnectLeak(address string, delay time.Duration) {
 func DNSLookupSpike() {
 	for {
 		domain := fake.DomainName()
-		net.LookupIP(domain)
+		go net.LookupIP(domain)
 		time.Sleep(10 * time.Millisecond)
 	}
 }
